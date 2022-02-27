@@ -1,7 +1,7 @@
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 class Redlist {
-  var redlist = [
+  static final List<LatLng> redlist = [
     LatLng(1.347724, 103.686542),
     LatLng(1.348148, 103.6865732),
     LatLng(1.348488, 103.686501),
